@@ -163,3 +163,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-gapps.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-gapps.xml \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-searchselector.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-searchselector.xml
+
+# Permission
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/configs/privapp-permission/permissions-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions-system_ext.xml
