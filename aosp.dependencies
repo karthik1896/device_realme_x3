@@ -1,0 +1,18 @@
+[
+    {
+        "repository":  "hardware_oplus",
+        "target_path": "hardware/oplus"
+    },
+    {
+        "repository":  "vendor_realme_x3",
+        "target_path": "vendor/realme/x3"
+    },
+    {
+        "repository":  "android_kernel_realme_x3",
+        "target_path": "kernel/realme/x3"
+    },   
+    {
+        "repository": "Panchajanya1999/azure-clang",
+        "target_path": "prebuilts/clang/host/linux-x86/azure-clang",
+    }
+]
