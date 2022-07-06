@@ -78,3 +78,7 @@ persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
+
+# Project-Elixir Stuff
+ro.elixir.maintainer=Karthik
+org.elixir.device=Realme X3 Series
