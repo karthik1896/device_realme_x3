@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_x3.mk
+    $(LOCAL_DIR)/p404_x3.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_x3-user \
-    aosp_x3-userdebug \
-    aosp_x3-eng
+    p404_x3-user \
+    p404_x3-userdebug \
+    p404_x3-eng
