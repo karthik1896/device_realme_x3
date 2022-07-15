@@ -16,7 +16,6 @@ BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_BOARD_PLATFORM := msmnile
 
 # Architecture
 TARGET_ARCH := arm64

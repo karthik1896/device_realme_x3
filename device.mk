@@ -6,6 +6,9 @@
 
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
+# Platform
+TARGET_BOARD_PLATFORM := msmnile
+
 # Inherit proprietary blobs
 $(call inherit-product, vendor/realme/x3/x3-vendor.mk)
 
