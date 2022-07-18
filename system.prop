@@ -34,6 +34,7 @@ ro.com.google.clientidbase.vs=android-oppo
 
 # Graphics
 vendor.display.idle_time=32767
+debug.sf.disable_client_composition_cache=1
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
