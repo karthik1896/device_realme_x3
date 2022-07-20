@@ -115,6 +115,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.x3 \
     android.hardware.power.stats@1.0-service.mock
 
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    bt
+
 # Radio
 PRODUCT_PACKAGES += \
     extphonelib \
