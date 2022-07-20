@@ -25,6 +25,9 @@ $(call inherit-product, device/realme/x3/device.mk)
 $(call inherit-product, vendor/404/configs/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Include GAPPS
+WITH_GAPPS := true
+
 # Device identifier
 PRODUCT_NAME := p404_x3
 PRODUCT_DEVICE := x3
