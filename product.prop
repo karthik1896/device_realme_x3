@@ -47,6 +47,7 @@ ro.vendor.display.sensortype=2
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/OPPO_OLED_AD_calib.cfg
 vendor.gralloc.enable_fb_ubwc=1
 debug.sf.disable_client_composition_cache=1
+debug.sf.enable_transaction_tracing=false
 
 # Display (phase offsets)
 debug.sf.use_phase_offsets_as_durations=1
