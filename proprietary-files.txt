@@ -50,6 +50,9 @@ system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 # IMS - from LA.QSSI.11.0.r1-11600-qssi.0
 -system_ext/priv-app/ims/ims.apk|9bd9423a998eae93b2c94a4820459d7b33c8a51a
 
+# Power Service
+vendor/bin/hw/android.hardware.power-service:product/vendor_overlay/30/bin/hw/android.hardware.power-service
+
 # QTI Telephony - from LA.QSSI.11.0.r1-11600-qssi.0
 system_ext/framework/qti-telephony-common.jar|95df25f17305ad570f1b1e0fa59534edce6619f8
 
