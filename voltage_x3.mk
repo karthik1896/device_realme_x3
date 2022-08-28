@@ -23,6 +23,9 @@ $(call inherit-product, device/realme/x3/device.mk)
 
 # Inherit some common Voltage stuff.
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+VOLTAGE_BUILD_TYPE := OFFICIAL
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
 PRODUCT_NAME := voltage_x3
