@@ -1,0 +1,7 @@
+allow gmscore_app firmware_file:filesystem { getattr };
+allow gmscore_app bt_firmware_file:filesystem { getattr };
+allow gmscore_app vendor_default_prop:file { open };
+allow gmscore_app vendor_default_prop:file { getattr };
+allow gmscore_app vendor_default_prop:file { map };
+allow gmscore_app ab_update_gki_prop:file { open };
+allow gmscore_app ab_update_gki_prop:file { getattr };

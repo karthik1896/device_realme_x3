@@ -1,1 +1,9 @@
 type oplus_product_file, file_type;
+type firmware_file, file_type;
+type bt_firmware_file, file_type;
+type vendor_sysfs_usb_supply, sysfs_type, fs_type;
+type vendor_hal_embmssl_qti, file_type;
+type vendor_diag_device, dev_type;
+type hal_fingerprint_oppo, domain;
+type vendor_sysfs_battery_supply, fs_type, sysfs_type;
+type vendor_sysfs_usbpd_device, dev_type, fs_type, sysfs_type;

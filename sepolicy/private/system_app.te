@@ -1,0 +1,2 @@
+allow system_app vendor_sysfs_usb_supply:file { write };
+allow system_app proc:file { write };

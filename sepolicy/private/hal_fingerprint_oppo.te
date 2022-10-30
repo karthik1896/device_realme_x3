@@ -1,0 +1,4 @@
+allow hal_fingerprint_oppo init:binder { call };
+allow hal_fingerprint_oppo system_data_root_file:dir { read };
+allow hal_fingerprint_oppo system_data_root_file:dir { open };
+allow hal_fingerprint_oppo default_android_hwservice:hwservice_manager { find };
