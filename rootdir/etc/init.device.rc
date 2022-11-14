@@ -81,6 +81,11 @@ on property:vendor.post_boot.parsed=1
     write /dev/stune/top-app/schedtune.boost 1
     write /dev/stune/top-app/schedtune.prefer_idle 1
 
+    # Setup dynamic stune boost
+    write /sys/module/cpu_boost/parameters/dynamic_stune_boost 15
+    write /sys/module/cpu_boost/parameters/dynamic_stune_boost_ms 1000
+    write /dev/stune/top-app/schedtune.sched_boost 15
+
     # Setup CPU frequencies
     write /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq 1209600
     write /sys/devices/system/cpu/cpufreq/policy0/schedutil/hispeed_freq 1785600
