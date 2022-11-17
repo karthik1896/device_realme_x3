@@ -29,10 +29,6 @@ ro.charger.enable_suspend=true
 dalvik.vm.isa.arm.variant=cortex-a55
 dalvik.vm.isa.arm64.variant=cortex-a76
 
-# Device Props
-ro.product.name=RMX2081
-ro.product.product.device=RMX2081
-
 # Display
 debug.sf.frame_rate_multiple_threshold=120
 persist.sys.sf.native_mode=1
