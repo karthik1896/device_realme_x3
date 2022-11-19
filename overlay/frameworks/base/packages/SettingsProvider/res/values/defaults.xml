@@ -25,7 +25,7 @@
     <integer name="def_screen_brightness">50</integer>
 
     <!-- 30 seconds for default screen timeout -->
-    <integer name="def_screen_off_timeout">120000</integer>
+    <integer name="def_screen_off_timeout">60000</integer>
 
     <!-- Disable bluetooth by default -->
     <bool name="def_bluetooth_on">false</bool>
