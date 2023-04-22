@@ -21,19 +21,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/realme/x3/device.mk)
 
-ifneq ($(VANILLA_BUILD),true)
-# Inherit GMS
-$(call inherit-product, vendor/partner_gms/products/gms.mk)
-$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
-$(call inherit-product-if-exists, vendor/partner_modules/build/mainline_modules_s_flatten_apex.mk)
-else
-$(warning Building vanilla)
-endif
+# Inherit common Project 404 Stuff
+$(call inherit-product, vendor/404/configs/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+P404_BUILDTYPE=TOKUI
+TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GAPPS := true
 
 # Device identifier
-PRODUCT_NAME := aosp_x3
+PRODUCT_NAME := p404_x3
 PRODUCT_DEVICE := x3
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := X3
 PRODUCT_MANUFACTURER := realme
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+              PRIVATE_BUILD_DESC="msmnile-user 11 RKQ1.200928.002 root07121250 release-keys"
